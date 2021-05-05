@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+    <None Include="wwwroot\images\50shadesofgrey.jpg" />
+    <None Include="wwwroot\images\AmericanSniper.jpg" />
+    <None Include="wwwroot\images\AverngersEndgame.jpg" />
+    <None Include="wwwroot\images\Casablanca.jpg" />
+    <None Include="wwwroot\images\Fury.jpg" />
+    <None Include="wwwroot\images\KnivesOut.jpg" />
+    <None Include="wwwroot\images\LadyBird.jpg" />
+    <None Include="wwwroot\images\MissionImpossible.jpg" />
+    <None Include="wwwroot\images\OneNightinMiami.jpg" />
+    <None Include="wwwroot\images\TheConjuring.jpg" />
+    <None Include="wwwroot\images\ToyStore4.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>
