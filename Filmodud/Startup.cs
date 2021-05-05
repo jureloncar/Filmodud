@@ -31,6 +31,18 @@ namespace Filmodud
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            // Checking if database exists
+            if (DataSeeder.CheckIfDatabaseExists(Configuration) == false)
+            {
+                // TODO #1
+                // Create Movies database
+            }
+            DataSeeder.CreateMoviesIfNotExist(Configuration);
+
+
+
+
+
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
